@@ -1,8 +1,8 @@
 class Walnut < Formula
   desc "TEA language for iOS — typecheck, compile, and ship native apps"
-  homepage "https://github.com/franckverrot/walnutlang"
+  homepage "https://github.com/franckverrot/walnut"
   version "0.2.0"
-  url "https://github.com/franckverrot/walnutlang/releases/download/v0.2.0/walnut-0.2.0-darwin-arm64.tar.gz"
+  url "https://github.com/franckverrot/walnut/releases/download/v0.2.0/walnut-0.2.0-darwin-arm64.tar.gz"
   sha256 "1a0faaae298df09467fc49e1d3db52569e074d11a2f9541e501c4c1d2aab4890"
   license :cannot_represent
 
