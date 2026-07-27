@@ -3,7 +3,7 @@ class Walnut < Formula
   homepage "https://github.com/franckverrot/walnut"
   version "0.2.0"
   url "https://github.com/franckverrot/homebrew-walnut/releases/download/v0.2.0/walnut-0.2.0-darwin-arm64.tar.gz"
-  sha256 "bf5f68276d44a16d6fc883685b5a853dd18e8578058330346d1a00652560c461"
+  sha256 "fe8ed28889e3d69995bc052ad98b124fe900471c43427dc471bc598d011a37b7"
   license :cannot_represent
 
   depends_on :macos
