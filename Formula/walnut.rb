@@ -1,9 +1,9 @@
 class Walnut < Formula
   desc "TEA language for iOS — typecheck, compile, and ship native apps"
-  homepage "https://github.com/franckverrot/walnut"
-  version "0.4.0"
-  url "https://github.com/franckverrot/homebrew-walnut/releases/download/v0.4.0/walnut-0.4.0-darwin-arm64.tar.gz"
-  sha256 "4150f58cc8d2a04afa9a402706c52800436e7ea9b6992f182d9c0867feba3478"
+  homepage "https://walnutlang.com/"
+  version "0.4.1"
+  url "https://github.com/franckverrot/homebrew-walnut/releases/download/v0.4.1/walnut-0.4.1-darwin-arm64.tar.gz"
+  sha256 "82b4361c42d597d9f0a78a7b8d38fbaf240856bb685f915bd2e14f51013cd6d8"
   license :cannot_represent
 
   depends_on :macos
@@ -32,7 +32,7 @@ class Walnut < Formula
 
   test do
     ENV["WALNUT_HOME"] = "#{prefix}/share/walnut/runtime"
-    assert_match "walnut 0.4.0", shell_output("#{bin}/walnut version")
+    assert_match "walnut 0.4.1", shell_output("#{bin}/walnut version")
     assert_predicate prefix/"libexec/walnut/Walnut_WalnutCore.bundle", :directory?
     assert_predicate prefix/"share/walnut/runtime/Package.swift", :file?
     assert_predicate prefix/"share/doc/walnut/getting-started.md", :file?
