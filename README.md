@@ -18,7 +18,7 @@ Walnut is proprietary software. Use `walnut license` for Community or Commercial
 ## Migrating from the old tap
 
 ```sh
-brew untap franckverrot/homebrew-walnut
+brew untap franckverrot/walnut
 brew tap walnutlang/walnut
 brew reinstall walnut
 ```
