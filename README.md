@@ -1,7 +1,7 @@
 # Walnut
 
 ```sh
-brew tap franckverrot/homebrew-walnut
+brew tap walnutlang/walnut
 brew install walnut
 ```
 
@@ -14,3 +14,11 @@ walnut version
 Docs land under `$(brew --prefix)/share/doc/walnut/`.
 
 Walnut is proprietary software. Use `walnut license` for Community or Commercial seats.
+
+## Migrating from the old tap
+
+```sh
+brew untap franckverrot/homebrew-walnut
+brew tap walnutlang/walnut
+brew reinstall walnut
+```
