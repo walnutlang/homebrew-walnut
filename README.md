@@ -1,7 +1,7 @@
 # Walnut
 
 ```sh
-brew tap franckverrot/walnut
+brew tap franckverrot/homebrew-walnut
 brew install walnut
 ```
 
